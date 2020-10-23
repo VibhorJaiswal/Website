@@ -1,3 +1,10 @@
+.container {
+  background-color: lightgray;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
 /* .card{
     max-width: 400px;
     margin-left: 100px;
