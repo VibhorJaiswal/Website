@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (window.innerWidth < 800) {
         let temp = document.querySelectorAll('#card');
         for (let i = 0; i < 4; i++) {
-            temp[i].setAttribute("class", "row");
+            temp[i].setAttribute("class", "row card");
             temp[i].id = "";
         }
     }
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var elems = document.querySelectorAll('.sidenav');
     var instances = M.Sidenav.init(elems, { duration: 300 });
 });
-  
+
 //   change
 
   let app = new Vue({
