@@ -1,17 +1,47 @@
-.container {
-  background-color: lightgray;
+#main-div{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(223, 223, 223);
+    /* overflow: scroll; */
+    padding: 0px;
 }
-body::-webkit-scrollbar {
-  display: none;
+body{
+    height: 100vh;
 }
 
-/* .card{
-    max-width: 400px;
-    margin-left: 100px;
-}
-
-#card-container{
-    display: flex;
-    flex-direction: column;
-    
+/* #for-nav-bar{
+    height: 10%;
 } */
+
+#for-content{
+    margin-top: 1px;
+    /* height: 100%; */
+    background-color: burlywood;
+    overflow: scroll;
+    padding-bottom: 10%;
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+@media (max-width: 800px) {
+    #for-content {
+      /* flex: 100%;
+      flex-direction: row; */
+      align-content: center;
+    }
+
+    #card{
+        width: 100%;
+    }
+
+    #for-content{
+        background-color: rgb(57, 58, 57);
+    }
+  }
+
+#card{
+    max-width: 40%;
+    max-height: 50%;
+    margin: 5px;
+    padding: 0px;
+}
