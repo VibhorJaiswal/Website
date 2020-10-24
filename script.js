@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (window.innerWidth < 800) {
         let temp = document.querySelectorAll('#card');
         for (let i = 0; i < 4; i++) {
-            temp[i].setAttribute("class", "row card");
+            temp[i].setAttribute("class", "row card ");
             temp[i].id = "";
         }
     }
