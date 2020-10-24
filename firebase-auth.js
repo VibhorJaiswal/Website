@@ -10,9 +10,9 @@ var uiConfig = {
       console.log(authResult);
       return false;
     },
-    uiShown: function () {
-      document.getElementById('loader').style.display = 'none';
-    },
+    // uiShown: function () {
+    //   document.getElementById('loader').style.display = 'none';
+    // },
   },
   signInFlow: 'popup',
   // signInSuccessUrl: '<url-to-redirect-to-on-success>',
